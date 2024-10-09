@@ -4,6 +4,11 @@
 
 This document provides a step-by-step guide to implement and use the Log Retrieval Tool. The tool allows customers to extract logs from the Check Point Infinity Events API using a Python script. The only required inputs are the Client ID, API key, and a time frame for the logs (start date & time, end date & time).
 
+> ### PS
+> This script "script2.py" currently is hard-coded with URI respective to EU portal infinity events.
+> If you want to implement the same for US/AU portal you can simply edit & replace the respective URI as per (CP API documentation here)[https://app.swaggerhub.com/apis-docs/Check-Point/infinity-events-api/1.0.0#/Search%20Event%20Logs/logsQuery]
+> Hopefully next version of scripts can do auto retirval of logs recursively should be in by next few week.
+
 ## Prerequisites
 Before using the tool, ensure you have the following:
 
